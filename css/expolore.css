@@ -1,0 +1,36 @@
+body {
+    background-size: contain;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    color: white;
+    width: 80vw;
+    background-color: #e45a40;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    border-radius: 20px;
+    box-shadow:  5px 5px 29px #5a5a5a,-5px -5px 29px #ffffff;
+}
+.card_title {
+    font-size: 2rem;
+    margin: 20px;
+}
+.card_cover {
+    width: calc(100% - 30px);
+    
+    margin: 20px;
+}
+.card_text {
+    /* text-align: justify; */
+    margin: 20px;
+}
+strong {
+    font-weight: bolder;
+    color: rgb(29, 29, 29);
+}
