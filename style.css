@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier Prime', monospace;
+}
+body {
+    /* background-color: rgb(240, 240, 240); */
+    background-image: url(./image/Backgroundt.png);
+    background-size: cover;
+
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo-img {
+    height: 40px;
+    margin: 5px 5px;
+}
+.logo-text {
+    height: 28px;
+    font-size: 2rem;
+}
+.logo-text_2 {
+    font-size: 1rem;
+}
+ul {
+    display: flex; 
+    flex-direction: row;
+}
+li {
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    list-style: none;
+    margin: 10px 15px;
+    font-size: 1.2rem;
+    font-weight: normal;
+    background-color: #e45a40;
+    padding: 0 10px;
+    border-radius: 20px;
+}
+li>a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+} 

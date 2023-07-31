@@ -1,0 +1,30 @@
+main{
+    display: flex;
+    justify-content: center;
+}
+.card {
+  background-color: #e45a40;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  /* width: clamp(300px, 100%, 400px); */
+  width: 300px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.profile_pic {
+  height: 75px;
+  width: 75px;
+  padding: 8px;
+  border-radius: 20px;
+}
+.all_text>p {
+  margin: 0;
+  color: #ececec;
+  /* font-family: monospace; */
+}
+.name {
+  font-weight: bold;
+  /* font-family: monospace; */
+  font-size: 1.3rem;
+}
