@@ -1,0 +1,23 @@
+.mobile {
+    display: none;
+}
+@media screen and (max-width: 870px) {
+    header {
+        display: none;
+    }
+    main {
+        display: none;
+    }
+    .mobile {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 66vh;
+        color: rgb(0, 0, 0);
+    }
+    .mob_text {
+        font-weight: bolder;
+        font-size: 1.5rem;
+        margin: 10px;
+    }
+}
